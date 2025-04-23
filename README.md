@@ -2,8 +2,9 @@
 
 ## 👤 Autor
 **Samantha Mohedano Barrena**  
-[SamanthaMB](https://github.com/SamanthaMB)
-[🔗 Torneo-ESports-UML](https://github.com/SamanthaMB/Torneo-ESports-UML.git)
+🔗Enlace pergil Github [SamanthaMB](https://github.com/SamanthaMB)
+🔗Enlace al repositorio[Torneo-ESports-UML](https://github.com/SamanthaMB/Torneo-ESports-UML.git)
+
 ---
 
 ## 📌 Descripción del Proyecto
@@ -17,6 +18,7 @@ Este proyecto consiste en el desarrollo de un sistema de gestión de torneos de 
 - **Consultas** disponibles tanto para administradores como para jugadores.
 
 *Este sistema está diseñado para ser fácilmente escalable y adaptable a diferentes tipos de competiciones de ESports*.
+
 ---
 
 
@@ -142,6 +144,7 @@ Este sistema ha sido diseñado utilizando la metodología de Programación Orien
 -**Control**: Son clases encargadas de gestionar la lógica de negocio, como GestorEquipos, GestorTorneos, GestorPartidas y GestorPremios, las cuales manipulan y gestionan las entidades según las necesidades del sistema.
 -**Interfaz**: Son las clases que interactúan con los usuarios, proporcionando una interfaz para la interacción, tanto para administradores como para jugadores. Ejemplos de estas clases son VistaAdministrador y VistaGeneral.
 Además, el sistema usa diagramas UML para visualizar las relaciones entre las clases y sus interacciones, facilitando el entendimiento del diseño y la implementación del sistema.
+
 ---
 
 
@@ -161,12 +164,14 @@ Los diagramas fueron generados usando **PlantUML** a partir del código fuente U
 
 ### 📌 Diagrama de Clases UML
 ![Diagrama de Clases](diagrams/clases.png)
+
 ---
 
 
 ## 📁 Estructura del Proyecto
 
 torneo-esports-uml/ ├── docs/ │ └── Proyecto.pdf ├── diagrams/ │ ├── casos-uso-equipos-jugadores.png │ ├── casos-uso-torneos.png │ ├── casos-uso-resultados-premios.png │ ├── clases.png ├── README.md └── .gitignore
+
 ---
 
 

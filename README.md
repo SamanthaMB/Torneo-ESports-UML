@@ -2,8 +2,8 @@
 
 ## 👤 Autor
 **Samantha Mohedano Barrena**  
-Perfil Github: [SamanthaMB](https://github.com/SamanthaMB)
-[🔗 Enlace al repositorio](https://github.com/SamanthaMB/Torneo-ESports-UML.git)
+[SamanthaMB](https://github.com/SamanthaMB)
+[🔗 Torneo-ESports-UML](https://github.com/SamanthaMB/Torneo-ESports-UML.git)
 ---
 
 ## 📌 Descripción del Proyecto
@@ -17,7 +17,7 @@ Este proyecto consiste en el desarrollo de un sistema de gestión de torneos de 
 - **Consultas** disponibles tanto para administradores como para jugadores.
 
 *Este sistema está diseñado para ser fácilmente escalable y adaptable a diferentes tipos de competiciones de ESports*.
-
+---
 
 
 ## 🧠 Análisis del problema y requisitos del sistema
@@ -48,7 +48,7 @@ Este proyecto consiste en el desarrollo de un sistema de gestión de torneos de 
 | Torneo   | Premio    | Composición | 1:N | Los premios están ligados al torneo. |
 | Premio   | Equipo    | Asociación bidireccional | 1 premio → 1 equipo / 1 equipo → * premios | Un equipo puede ganar varios premios. |
 
-
+---
 
 
 ## 🧩 Identificación de los casos de uso
@@ -98,7 +98,7 @@ Este proyecto consiste en el desarrollo de un sistema de gestión de torneos de 
 
 **Jugador:**
 - Consultar premios.
-
+---
 
 
 ## 🧱 Identificación de clases y relaciones
@@ -132,7 +132,7 @@ Los gestores agregan a las Entidades.
 - **VistaAdministrador**: Implementa funcionalidades completas para el administrador.
 - **VistaGeneral**: Consulta de información general para jugadores.
 Las clases vistas implementan la interfaz ESports y a su vez dependen de los gestores para ejecutar las acciones del negocio y acceder a los datos de las entidades.
-
+---
 
 
 ## 🧮 Justificación del diseño
@@ -142,7 +142,7 @@ Este sistema ha sido diseñado utilizando la metodología de Programación Orien
 -**Control**: Son clases encargadas de gestionar la lógica de negocio, como GestorEquipos, GestorTorneos, GestorPartidas y GestorPremios, las cuales manipulan y gestionan las entidades según las necesidades del sistema.
 -**Interfaz**: Son las clases que interactúan con los usuarios, proporcionando una interfaz para la interacción, tanto para administradores como para jugadores. Ejemplos de estas clases son VistaAdministrador y VistaGeneral.
 Además, el sistema usa diagramas UML para visualizar las relaciones entre las clases y sus interacciones, facilitando el entendimiento del diseño y la implementación del sistema.
-
+---
 
 
 
@@ -161,13 +161,13 @@ Los diagramas fueron generados usando **PlantUML** a partir del código fuente U
 
 ### 📌 Diagrama de Clases UML
 ![Diagrama de Clases](diagrams/clases.png)
-
+---
 
 
 ## 📁 Estructura del Proyecto
 
 torneo-esports-uml/ ├── docs/ │ └── Proyecto.pdf ├── diagrams/ │ ├── casos-uso-equipos-jugadores.png │ ├── casos-uso-torneos.png │ ├── casos-uso-resultados-premios.png │ ├── clases.png ├── README.md └── .gitignore
-
+---
 
 
 ## ✅ Conclusión

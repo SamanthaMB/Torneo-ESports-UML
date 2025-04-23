@@ -2,7 +2,9 @@
 
 ## 👤 Autor
 **Samantha Mohedano Barrena**  
+
 🔗Perfil Github [SamanthaMB](https://github.com/SamanthaMB)
+
 🔗Enlace al repositorio [Torneo-ESports-UML](https://github.com/SamanthaMB/Torneo-ESports-UML.git)
 
 ---

@@ -2,8 +2,8 @@
 
 ## 👤 Autor
 **Samantha Mohedano Barrena**  
-🔗Enlace pergil Github [SamanthaMB](https://github.com/SamanthaMB)
-🔗Enlace al repositorio[Torneo-ESports-UML](https://github.com/SamanthaMB/Torneo-ESports-UML.git)
+🔗Perfil Github [SamanthaMB](https://github.com/SamanthaMB)
+🔗Enlace al repositorio [Torneo-ESports-UML](https://github.com/SamanthaMB/Torneo-ESports-UML.git)
 
 ---
 
@@ -140,9 +140,13 @@ Las clases vistas implementan la interfaz ESports y a su vez dependen de los ges
 ## 🧮 Justificación del diseño
 
 Este sistema ha sido diseñado utilizando la metodología de Programación Orientada a Objetos (POO), organizando las clases en tres categorías principales: **Entidades, Control e Interfaz**. Cada una de estas categorías tiene responsabilidades específicas, lo que permite una estructura limpia, modular y fácil de mantener:
+
 -**Entidades**: Son las clases principales que representan los elementos fundamentales del sistema como Equipo, Jugador, Torneo, Partida y Premio. Estas clases manejan los datos principales y las relaciones entre ellos.
+
 -**Control**: Son clases encargadas de gestionar la lógica de negocio, como GestorEquipos, GestorTorneos, GestorPartidas y GestorPremios, las cuales manipulan y gestionan las entidades según las necesidades del sistema.
+
 -**Interfaz**: Son las clases que interactúan con los usuarios, proporcionando una interfaz para la interacción, tanto para administradores como para jugadores. Ejemplos de estas clases son VistaAdministrador y VistaGeneral.
+
 Además, el sistema usa diagramas UML para visualizar las relaciones entre las clases y sus interacciones, facilitando el entendimiento del diseño y la implementación del sistema.
 
 ---

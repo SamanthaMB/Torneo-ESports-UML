@@ -165,7 +165,7 @@ Los diagramas fueron generados usando **PlantUML** a partir del código fuente U
 ### 📌 Diagrama de Casos de Uso - Gestión de Torneos
 ![Casos de uso - Torneos](diagrams/casos-uso-torneos.png)
 
-### 📌 Diagrama de Casos de Uso - Gestión de Premios
+### 📌 Diagrama de Casos de Uso - Gestión de Partidas y resultados - Gestión de Premios
 ![Casos de uso - Premios](diagrams/casos-uso-resultados-premios.png)
 
 ### 📌 Diagrama de Clases UML
